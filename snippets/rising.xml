@@ -29,6 +29,12 @@
            sync-c="true"
            sync-j="4" />
 
+  <remote  name="julival"
+           fetch="https://github.com/bittencourtjulival"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/sixteen" />
+
   <!-- Art -->
   <project path="art" name="android_art" groups="pdk" remote="rising" />
 
@@ -73,7 +79,7 @@
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="rising" />
-  <project path="frameworks/base" name="android_frameworks_base-new" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="rising" />
+  <project path="frameworks/base" name="android_frameworks_base-new" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="julival" />
   <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="rising" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="rising" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" groups="pdk,sysui-studio" remote="rising" />
